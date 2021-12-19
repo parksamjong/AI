@@ -14,8 +14,9 @@
 
 .DI {
     text-align: center;
-    width: 800px;
-    height: 450px;
+    width: 720px;
+    height: 480px;
+    margin: auto;
 }
 
 .text {
