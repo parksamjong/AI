@@ -24,7 +24,7 @@
                     transform: rotate(360deg); 
                 }
 }
-.img {animation: rotate_image 30s linear infinite;
+.img {animation: rotate_image 60s linear infinite;
     transform-origin: 50% 50%;
     } 
     @keyframes rotate_image{ 
