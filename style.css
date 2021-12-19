@@ -16,23 +16,13 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    animation: rotate_image 6s linear infinite;
-    transform-origin: 50% 50%;
-    } 
-    @keyframes rotate_image{ 
-                100% { 
-                    transform: rotate(360deg); 
-                }
-}
-.img {animation: rotate_image 60s linear infinite;
-    transform-origin: 50% 50%;
-    } 
-    @keyframes rotate_image{ 
-                100% { 
-                    transform: rotate(360deg); 
-                }
 }
 
+.face {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
 .text {
     display: flex;
     justify-content: center;
