@@ -16,16 +16,14 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 720;
-    height: 480;
+    
 }
 
 .face {
         display: flex;
         justify-content: center;
         text-align: center;
-        width: 300;
-        height: 400;
+        
 }
 .text {
     display: flex;
