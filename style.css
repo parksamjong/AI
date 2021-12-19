@@ -24,6 +24,14 @@
                     transform: rotate(360deg); 
                 }
 }
+.img {animation: rotate_image 6s linear infinite;
+    transform-origin: 50% 50%;
+    } 
+    @keyframes rotate_image{ 
+                100% { 
+                    transform: rotate(360deg); 
+                }
+}
 
 .text {
     display: flex;
