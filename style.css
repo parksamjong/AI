@@ -5,7 +5,18 @@
 }
 
 .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: large;
     color: crimson;
+
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: dodgerblue;
 
 }
