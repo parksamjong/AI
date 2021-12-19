@@ -1,13 +1,13 @@
 .head1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: rgb(34, 30, 255);
 }
 .head2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: dodgerblue;
 }
 
@@ -15,7 +15,7 @@
 .DI {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: dodgerblue;
     width: 800px;
     height: 450px;
@@ -25,14 +25,14 @@
 .text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: rgb(194, 38, 69);
 
 }
 .email {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: dodgerblue;
 
 }
