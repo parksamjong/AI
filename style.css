@@ -1,4 +1,22 @@
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dodgerblue;
+}
+.head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dodgerblue;
+}
+
+
 .DI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dodgerblue;
     width: 1600px;
     height: 900px;
 
@@ -8,7 +26,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
     color: crimson;
 
 }
@@ -16,7 +33,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
     color: dodgerblue;
 
 }
