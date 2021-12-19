@@ -13,10 +13,7 @@
 
 
 .DI {
-    display: flex;
-    justify-content: center;
     text-align: center;
-    color: dodgerblue;
     width: 800px;
     height: 450px;
 
