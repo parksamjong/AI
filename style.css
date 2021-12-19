@@ -16,13 +16,22 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: #4861b3;
+    width: 720px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .face {
-        display: flex;
-        justify-content: center;
-        text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
         
 }
 .text {
