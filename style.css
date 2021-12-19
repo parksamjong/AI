@@ -1,1 +1,11 @@
-html
+.DI {
+    width: 1600px;
+    height: 900px;
+
+}
+
+.text {
+    font-size: large;
+    color: crimson;
+
+}
