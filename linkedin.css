@@ -36,11 +36,34 @@
 .source-note { color: var(--muted); font-size: .8rem; margin-top: 24px !important; }
 .source-note a { color: var(--cyan); border-bottom: 1px solid var(--cyan); }
 
+.recent-projects-heading { max-width: var(--max); margin: 110px auto 45px; }
+.recent-projects-heading h3 { font-size: clamp(2.4rem, 5vw, 4.8rem); line-height: 1.1; letter-spacing: -.05em; margin: 0; }
+.recent-projects-heading > p:last-child { color: var(--muted); max-width: 720px; }
+.recent-project-grid { max-width: var(--max); margin: 0 auto 100px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.recent-card { min-width: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(12, 26, 43, .38); }
+.recent-cover { display: block; aspect-ratio: 16 / 8.7; overflow: hidden; position: relative; border-bottom: 1px solid var(--line); background: var(--panel); }
+.recent-cover img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .35s ease, filter .35s ease; }
+.recent-cover:hover img { transform: scale(1.025); filter: saturate(1.15); }
+.recent-cover > span { position: absolute; top: 16px; left: 16px; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--lime); color: var(--bg); font: 800 .68rem Manrope, sans-serif; }
+.recent-card-body { padding: 32px; }
+.recent-card-body h4 { font-size: clamp(1.35rem, 2.4vw, 2rem); line-height: 1.25; letter-spacing: -.035em; margin: 12px 0; }
+.recent-card-body > p:not(.project-type) { color: var(--muted); min-height: 5.1em; }
+.recent-actions { display: flex; justify-content: space-between; gap: 18px; align-items: end; }
+.recent-actions details { position: relative; }
+.recent-actions summary { cursor: pointer; color: var(--cyan); font-size: .78rem; font-weight: 700; list-style: none; border-bottom: 1px solid var(--cyan); padding-bottom: 5px; }
+.recent-actions summary::-webkit-details-marker { display: none; }
+.recent-all-images { position: fixed; z-index: 50; inset: 6vh 5vw; padding: 54px 22px 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; overflow: auto; background: rgba(7, 17, 31, .98); border: 1px solid var(--cyan); box-shadow: 0 25px 100px #000; }
+.recent-all-images::before { content: "LINKEDIN PROJECT IMAGES"; position: absolute; top: 20px; left: 22px; color: var(--lime); font: 700 .72rem Manrope, sans-serif; letter-spacing: .1em; }
+.gallery-close { position: absolute; z-index: 2; top: 12px; right: 18px; border: 1px solid var(--cyan); background: var(--bg); color: var(--text); padding: 7px 12px; cursor: pointer; font: 700 .72rem "Noto Sans KR", sans-serif; }
+.recent-all-images img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+
 @media (max-width: 900px) {
   .post-intro { grid-template-columns: 1fr; }
   .post-intro > p:not(.project-type), .post-intro > .post-metrics, .post-intro > .text-link { grid-column: 1; }
   .post-intro h3 { margin-bottom: 25px; }
   .public-notes { grid-template-columns: 1fr; }
+  .recent-project-grid { grid-template-columns: 1fr; }
+  .recent-card-body > p:not(.project-type) { min-height: 0; }
 }
 
 @media (max-width: 600px) {
@@ -48,4 +71,7 @@
   .post-metrics { grid-template-columns: 1fr; }
   .post-gallery { grid-auto-columns: 88vw; margin-right: -20px; }
   .public-notes article { padding: 28px 22px; }
+  .recent-card-body { padding: 26px 22px; }
+  .recent-actions { align-items: start; flex-direction: column; }
+  .recent-all-images { inset: 3vh 3vw; grid-template-columns: 1fr; padding: 50px 10px 10px; }
 }
