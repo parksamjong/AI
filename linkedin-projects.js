@@ -2,9 +2,9 @@ const linkedInProjects = [
   { id: '7478795322106724352', title: '1024밴드 실시간 주파수 스펙트럼 분석기', summary: '오실로스코프 기능과 1024밴드 상세 분석을 결합하고, 특정 주파수 발생 패턴을 감지해 보안 에이전트에 적용한 실시간 분석 시스템입니다.', tags: ['Spectrum', 'Realtime', 'Security Agent'], images: 6 },
   { id: '7475891094589710337', title: 'L5 NetOps', summary: 'SDN, Kubernetes, Kafka, Redis, Neo4j, VectorRAG와 GraphRAG를 연결해 탐지부터 자가복구까지 수행하는 자동화 레벨 5 네트워크 운영 시스템입니다.', tags: ['NetOps', 'AIOps', 'Self-Healing'], images: 2 },
   { id: '7451181442119663616', title: '자기진화형 AI 보안 에이전트', summary: '취약점 자동 분석·대응, 실시간 침투경로 탐지, Neo4j 온톨로지 분석과 자기진화형 방어경로 생성을 결합한 보안 에이전트 구현 기록입니다.', tags: ['Cybersecurity', 'Neo4j', 'Autonomous Agent'], images: 8 },
-  { id: '7435016766629646336', title: 'ORAUPG', summary: 'RDF/OWL 온톨로지와 GraphRAG·VectorRAG를 이용해 Oracle에서 PostgreSQL로의 마이그레이션 전 과정을 자동화하는 멀티에이전트 도구입니다.', tags: ['Migration', 'Ontology', 'Go'], images: 9 },
-  { id: '7434898952258256896', title: 'AgentConductor', summary: '작업 난이도에 따라 8개 전문 보안 에이전트의 DAG 토폴로지를 동적으로 설계하고 최적화하는 멀티에이전트 오케스트레이션 시스템입니다.', tags: ['Multi-Agent', 'DAG', 'GraphRAG'], images: 12 },
-  { id: '7434403715824041984', title: '통합 사이버보안 온톨로지', summary: 'RDF/OWL, SPARQL, Neo4j, VectorRAG와 GraphRAG를 통합해 공격 경로 탐색과 대응방안 생성을 수행하는 지능형 보안 플랫폼입니다.', tags: ['RDF/OWL', 'SPARQL', 'Attack Path'], images: 10 },
+  // ORAUPG (7435016766629646336) — 피처 케이스에 표시, 아카이브 중복 제거
+  // AgentConductor (7434898952258256896) — 피처 케이스에 표시, 아카이브 중복 제거
+  // 통합 사이버보안 온톨로지 (7434403715824041984) — public-notes에 표시, 아카이브 중복 제거
   { id: '7433886444550754304', title: 'NISP', summary: 'AI 멀티에이전트, Kali Linux와 MCP를 결합해 보안 스캔부터 취약점 분석·명령 생성·보고서 작성까지 자동화한 사이버보안 플랫폼입니다.', tags: ['Kali Linux', 'MCP', 'Security'], images: 7 },
   { id: '7433221937625169920', title: 'RAGFACTORY', summary: '지식그래프 온톨로지, VectorRAG, GraphRAG, LangChain과 LangGraph를 한곳에서 실습하고 검증하는 RAG 프로젝트 사이트입니다.', tags: ['RAG', 'LangGraph', 'Knowledge Graph'], images: 9 },
   { id: '7432860794892996608', title: 'Claude Remote Control', summary: '원격 환경에서 Claude Code와 개발 도구를 함께 제어하고, 필요한 서비스에 즉시 접근하도록 구성한 멀티 원격제어 구현입니다.', tags: ['Claude Code', 'Remote', 'Automation'], images: 4 },

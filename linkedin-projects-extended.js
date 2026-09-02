@@ -50,7 +50,7 @@ recentProjects.insertAdjacentHTML('beforeend', extendedLinkedInProjects.map((pro
   return `<article class="recent-card">
     <a class="recent-cover" href="${postUrl}" target="_blank" rel="noreferrer" aria-label="${project.title} LinkedIn 원문 보기">
       <img src="${base}/01.jpg" alt="${project.title} 대표 화면" loading="lazy" />
-      <span>${String(index + 24).padStart(2, '0')}</span>
+      <span>${String(index + 21).padStart(2, '0')}</span>
     </a>
     <div class="recent-card-body">
       <p class="project-type">LINKEDIN PROJECT · ${project.images} IMAGES</p>
